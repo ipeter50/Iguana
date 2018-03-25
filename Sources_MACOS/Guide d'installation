@@ -1,0 +1,55 @@
+------------------------------------------
+	  Guide d'installation
+------------------------------------------
+
+1.Téléchargez les ressources par ce lien 
+	
+
+Attention:
+Dans Mac OS, il y a une version Python2 installé automatiquement, mais nous devons utiliser le Python3 pour notre logiciel, dong nous allez installer une Python IDE pour faciliter l'utilisation.
+
+2.Téléchargez Pyzo IDE et Python environment et les installer par ce lien 
+
+	http://www.pyzo.org/start.html#quickstart
+
+3.En utilisant Pyzo, ouvrez le fichier Iguana.py dans les ressources que vous avez téléchargé dans l'étape 1 
+
+4.Installer les modules necessaires dans Pyzo
+  utiliser les commandes ci-dessous 
+
+  ----pour le moudule scipy----
+  pip install scipy
+
+  ----pour le module pyqt5----
+  pip install pyqt5
+
+  ----pour le module pustil---- 
+  pip install psutil
+
+  ----pour le module networkx---- 
+  Attention: il faut bien télécharger networkx version 1.9 
+
+  pip install networkx==1.9
+
+  ----pour le module py2cytoscape---- 
+
+  pip install py2cytoscape
+
+  ----pour le module sklearn---- 
+  
+  pip install sklearn
+
+  ----pour le module numpy---- 
+
+  pip install numpy
+
+  ----pour le module pandas---- 
+  pip install pandas
+
+  ----pour le module xgboost----
+  pip install xgboost
+
+  ----pour le module python-igraph----
+  pip install python-igraph
+
+5.Lancez le script (shift+commande+E)
